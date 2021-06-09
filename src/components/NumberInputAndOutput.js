@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Form, Accordion, Card } from "react-bootstrap";
+import numWords from "num-words";
 
 const NumberInputAndOutput = () => {
 	const [number, setNumber] = useState("");
@@ -8,15 +9,24 @@ const NumberInputAndOutput = () => {
 		setNumber(event.target.value);
 	};
 
-	const numToText = (number) => {
-		return parseInt(number);
+	const numToText = (aNumber) => {
+		return numWords(aNumber);
 	};
 
 	const renderOutput = () => {
 		if (number === "") {
 			return <div>Please enter a number</div>;
 		} else {
-			return numToText(number);
+			try {
+				if (isNaN(number)) {
+					throw "Not a Number";
+				} else {
+					return numToText(number);
+				}
+			} catch (err) {
+				console.error(err);
+				return <div>Cannot convert that</div>;
+			}
 		}
 	};
 
@@ -25,7 +35,7 @@ const NumberInputAndOutput = () => {
 			{/*Input*/}
 			<Form.Group>
 				<Form.Label>Enter a number</Form.Label>
-				<Form.Control type="text" value={number} onChange={handleInputChanged} />
+				<Form.Control type="text" value={number} onChange={handleInputChanged} autoFocus />
 			</Form.Group>
 
 			<br />
