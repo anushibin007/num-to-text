@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/num-to-text/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/num-to-text/static/js/main.697a45b0.chunk.js",
-    "main.js.map": "/num-to-text/static/js/main.697a45b0.chunk.js.map",
-    "runtime-main.js": "/num-to-text/static/js/runtime-main.e97a2d2c.js",
-    "runtime-main.js.map": "/num-to-text/static/js/runtime-main.e97a2d2c.js.map",
-    "static/js/2.458fcb1e.chunk.js": "/num-to-text/static/js/2.458fcb1e.chunk.js",
-    "static/js/2.458fcb1e.chunk.js.map": "/num-to-text/static/js/2.458fcb1e.chunk.js.map",
-    "static/js/3.20d86eb5.chunk.js": "/num-to-text/static/js/3.20d86eb5.chunk.js",
-    "static/js/3.20d86eb5.chunk.js.map": "/num-to-text/static/js/3.20d86eb5.chunk.js.map",
+    "main.css": "/num-to-text/static/css/main.d66654c8.chunk.css",
+    "main.js": "/num-to-text/static/js/main.dba68673.chunk.js",
+    "main.js.map": "/num-to-text/static/js/main.dba68673.chunk.js.map",
+    "runtime-main.js": "/num-to-text/static/js/runtime-main.b2139aca.js",
+    "runtime-main.js.map": "/num-to-text/static/js/runtime-main.b2139aca.js.map",
+    "static/css/2.ccaf9f56.chunk.css": "/num-to-text/static/css/2.ccaf9f56.chunk.css",
+    "static/js/2.342b0b43.chunk.js": "/num-to-text/static/js/2.342b0b43.chunk.js",
+    "static/js/2.342b0b43.chunk.js.map": "/num-to-text/static/js/2.342b0b43.chunk.js.map",
+    "static/js/3.f8468755.chunk.js": "/num-to-text/static/js/3.f8468755.chunk.js",
+    "static/js/3.f8468755.chunk.js.map": "/num-to-text/static/js/3.f8468755.chunk.js.map",
     "index.html": "/num-to-text/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/num-to-text/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.458fcb1e.chunk.js.LICENSE.txt": "/num-to-text/static/js/2.458fcb1e.chunk.js.LICENSE.txt"
+    "static/css/2.ccaf9f56.chunk.css.map": "/num-to-text/static/css/2.ccaf9f56.chunk.css.map",
+    "static/css/main.d66654c8.chunk.css.map": "/num-to-text/static/css/main.d66654c8.chunk.css.map",
+    "static/js/2.342b0b43.chunk.js.LICENSE.txt": "/num-to-text/static/js/2.342b0b43.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e97a2d2c.js",
-    "static/js/2.458fcb1e.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.697a45b0.chunk.js"
+    "static/js/runtime-main.b2139aca.js",
+    "static/css/2.ccaf9f56.chunk.css",
+    "static/js/2.342b0b43.chunk.js",
+    "static/css/main.d66654c8.chunk.css",
+    "static/js/main.dba68673.chunk.js"
   ]
 }
